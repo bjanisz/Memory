@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(21, 22, 129);
+    justify-content: center;
+    max-width: 60%;
+    align-items: center;
+    padding: 10px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(158, 145, 139, 0.733);
+    font-size: 64px;
+    text-align:center;
+    visibility: hidden;
+    }
+
+.parentDiv {
+    border: 2px solid black;
+    margin: 1px;
+    background-color: rgb(55, 137, 158)
+}
+
+p {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
